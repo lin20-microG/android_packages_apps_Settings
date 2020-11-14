@@ -110,4 +110,7 @@
     <string name="assisted_gps_summary">Satellitenhilfsdaten aus dem Internet herunterladen, die den Startvorgang von GPS erheblich verbessern können. Für Notrufe ist das unterstützte GPS immer erlaubt.</string>
     <string name="ziptables_block_switch_title">Iptables Block-Skript anwenden</string>
     <string name="ziptables_block_switch_summary">Blockiert den gesamten Facebook IP-Adressraum für alle Apps and den gesamten Google IP-Adressraum für die meisten Apps (ausgewählte Apps in Ausnahmeliste)</string>
+    <string name="sensor_access_summary">Sensorzugriff von Benutzer-Apps kontrollieren</string>
+    <string name="sensor_access_title">Zugriff auf Sensoren</string>
+    <string name="sensor_access_title_empty_text">Keine installierte App hat Sensorzugriff angefordert.</string>
 </resources>
