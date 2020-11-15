@@ -131,4 +131,12 @@
         android:summary="@string/summary_placeholder"
         android:order="25"
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
+
+   <SwitchPreference
+        android:key="ziptables_block_switch"
+        android:title="@string/ziptables_block_switch_title"
+        android:summary="@string/ziptables_block_switch_summary"
+        android:icon="@drawable/ic_sync"
+        android:order="35" />
+
 </PreferenceScreen>

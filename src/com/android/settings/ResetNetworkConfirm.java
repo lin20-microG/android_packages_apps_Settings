@@ -35,6 +35,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Looper;
 import android.os.RecoverySystem;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.telephony.SubscriptionManager;
@@ -141,6 +142,8 @@ public class ResetNetworkConfirm extends InstrumentedFragment {
                     btAdapter.clearBluetooth();
                 }
             }
+
+            SystemProperties.set("persist.privacy.iptab_blk", "0");
 
             restoreDefaultApn(mContext);
             Log.d(TAG, "network factoryReset complete. succeeded: "
