@@ -5966,4 +5966,5 @@
     <string name="hosts_disable_summary">Deaktiviert den mitgelieferten /etc/hosts Werbeblocker gegen Datensammler und Malware.</string>
     <string name="force_disable_supl_title">Secure User Plane Location (SUPL) deaktivieren</string>
     <string name="force_disable_supl_summary">SUPL unterstützte Standortermittlung deaktivieren, unabhängig von Anbieter oder Notfall-Einstellungen (A-GNSS wird nicht deakltiviert und IMSI wird nie an SUPL übermittelt)</string>
+    <string name="storage_scopes">Bereichsbezogener Speicher</string>
 </resources>
