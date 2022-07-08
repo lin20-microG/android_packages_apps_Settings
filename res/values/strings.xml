@@ -14562,4 +14562,7 @@
     <string name="force_disable_supl_summary">Always disable SUPL assisted location support regardless of carrier configuration or emergency call status (does not disable control plane A-GNSS and DivestOS does not send IMSI to the SUPL)</string>
 
     <string name="storage_scopes">Storage Scopes</string>
+
+    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
+    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
 </resources>
