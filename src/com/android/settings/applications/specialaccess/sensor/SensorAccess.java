@@ -65,7 +65,8 @@ public class SensorAccess extends SettingsPreferenceFragment {
         mContext = getActivity();
         mPackageManager = mContext.getPackageManager();
         mAppOpsManager = (AppOpsManager) mContext.getSystemService(Context.APP_OPS_SERVICE);
-        setPreferenceScreen(getPreferenceManager().createPreferenceScreen(mContext));
+
+        addPreferencesFromResource(R.xml.sensor_access_settings);
     }
 
     @Override
@@ -86,7 +87,6 @@ public class SensorAccess extends SettingsPreferenceFragment {
     @Override
     public void onResume() {
         super.onResume();
-        getActivity().getActionBar().setTitle(R.string.sensor_access_title);
         reloadList();
     }
 
@@ -96,6 +96,7 @@ public class SensorAccess extends SettingsPreferenceFragment {
 
         final ArrayList<ApplicationInfo> apps = new ArrayList<>();
         final List<ApplicationInfo> installed = mPackageManager.getInstalledApplications(0);
+
         if (installed != null) {
             for (ApplicationInfo app : installed) {
                 // Skip system apps
