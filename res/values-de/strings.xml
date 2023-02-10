@@ -5964,4 +5964,6 @@
     <string name="bt_le_audio_qr_code_is_not_valid_format" msgid="7821837654128137901">"Das Format des QR-Codes ist ungültig"</string>
     <string name="hosts_disable_title">DNS Blocker deaktivieren</string>
     <string name="hosts_disable_summary">Deaktiviert den mitgelieferten /etc/hosts Werbeblocker gegen Datensammler und Malware.</string>
+    <string name="force_disable_supl_title">Secure User Plane Location (SUPL) deaktivieren</string>
+    <string name="force_disable_supl_summary">SUPL unterstützte Standortermittlung deaktivieren, unabhängig von Anbieter oder Notfall-Einstellungen (A-GNSS wird nicht deakltiviert und IMSI wird nie an SUPL übermittelt)</string>
 </resources>
