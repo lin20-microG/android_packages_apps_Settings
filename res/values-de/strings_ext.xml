@@ -5,4 +5,7 @@
     <string name="bool_setting_enabled">Ein</string>
     <string name="bool_setting_disabled">Aus</string>
 
+    <string name="auto_reboot_title">Automatischer Neustart</string>
+    <string name="auto_reboot_footer">Das Gerät automatisch neu starten, wenn es nicht innerhalb der eingestellten Zeit entsperrt wurde.</string>
+
 </resources>

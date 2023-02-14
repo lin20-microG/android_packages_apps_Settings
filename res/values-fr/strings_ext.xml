@@ -5,4 +5,7 @@
     <string name="bool_setting_enabled">Allumé</string>
     <string name="bool_setting_disabled">Éteint</string>
 
+    <string name="auto_reboot_title">Redémarrage automatique</string>
+    <string name="auto_reboot_summary">Redémarrer l\'appareil s\'il n\'a pas été dévérouillé pendant le temps configuré.</string>
+
 </resources>
