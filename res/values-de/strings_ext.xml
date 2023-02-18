@@ -8,4 +8,7 @@
     <string name="auto_reboot_title">Automatischer Neustart</string>
     <string name="auto_reboot_footer">Das Gerät automatisch neu starten, wenn es nicht innerhalb der eingestellten Zeit entsperrt wurde.</string>
 
+    <string name="screenshot_timestamp_exif_title">Bildschirmkopie Zeitstempel in EXIF ablegen</string>
+    <string name="screenshot_timestamp_exif_summary">Aktiviert das Einfügen eines Zeitstempels der Bildschirmkopie in die EXIF Metadaten</string>
+
 </resources>
