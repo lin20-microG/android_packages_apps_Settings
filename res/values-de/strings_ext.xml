@@ -32,4 +32,6 @@ Diese Funktionalität kann die App-Sandbox geringfügig schwächen.
 Das Deaktivieren dieser Funktion kann sich negativ auf Apps auswirken, speziell Bank Apps."
     </string>
 
+    <string name="contact_scopes">Bereichsbezogene Kontakte</string>
+
 </resources>
