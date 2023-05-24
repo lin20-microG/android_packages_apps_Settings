@@ -24,4 +24,12 @@
     <string name="exec_spawning_title_inner">Sichere App-Ausführung anwenden</string>
     <string name="exec_spawning_footer">Apps sicherer ausführen als Android Standard (dauert länger und ist resourcen-intensiver)</string>
 
+    <string name="native_debugging_title">Natives Debugging</string>
+    <string name="native_debugging_title_inner">Natives Code-Debugging zulassen</string>
+    <string name="native_debugging_footer">
+"Natives Debugging (ptrace) dient der Erstellung nützlicher Protokolle von Abstürzen und zum Debuggen von nativem Programmcode.
+Diese Funktionalität kann die App-Sandbox geringfügig schwächen.
+Das Deaktivieren dieser Funktion kann sich negativ auf Apps auswirken, speziell Bank Apps."
+    </string>
+
 </resources>
