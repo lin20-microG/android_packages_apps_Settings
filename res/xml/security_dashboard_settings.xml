@@ -60,6 +60,12 @@
             android:title="@string/auto_reboot_title"
             settings:controller="com.android.settings.security.AutoRebootPrefController" />
 
+        <Preference
+            android:key="exec_spawning"
+            android:title="@string/exec_spawning_title"
+            android:fragment="com.android.settings.security.ExecSpawningFragment"
+            settings:controller="com.android.settings.security.ExecSpawningPrefController" />
+
         <com.android.settingslib.RestrictedPreference
             android:key="biometric_settings"
             android:title="@string/security_settings_biometric_preference_title"

@@ -19,4 +19,9 @@
     <string name="bluetooth_auto_off_footer">
 "Wenn keine Geräte verbunden sind, wird sich Bluetooth nach der eingestellten zeit abschalten."
     </string>
+
+    <string name="exec_spawning_title">Sichere App Ausführung</string>
+    <string name="exec_spawning_title_inner">Sichere App-Ausführung anwenden</string>
+    <string name="exec_spawning_footer">Apps sicherer ausführen als Android Standard (dauert länger und ist resourcen-intensiver)</string>
+
 </resources>
