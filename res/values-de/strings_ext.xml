@@ -12,4 +12,6 @@
     <string name="screenshot_timestamp_exif_title">Bildschirmkopie Zeitstempel in EXIF ablegen</string>
     <string name="screenshot_timestamp_exif_summary">Aktiviert das Einfügen eines Zeitstempels der Bildschirmkopie in die EXIF Metadaten</string>
 
+    <string name="wifi_auto_off_title">WLAN automatisch abschalten</string>
+    <string name="wifi_auto_off_footer">Wenn WLAN nicht mehr verbunden ist, wird es nach der eingestellten Zeit deaktiviert.</string>
 </resources>
