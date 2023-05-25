@@ -12,4 +12,6 @@
     <string name="screenshot_timestamp_exif_title">Save screenshot timestamp to EXIF</string>
     <string name="screenshot_timestamp_exif_summary">Enables adding a timestamp to screenshot EXIF metadata</string>
 
+    <string name="wifi_auto_off_title">Turn off Wi-Fi automatically</string>
+    <string name="wifi_auto_off_footer">If Wi-Fi is disconnected, it will be turned off after the selected timeout.</string>
 </resources>
