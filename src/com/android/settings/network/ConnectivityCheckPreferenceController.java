@@ -109,12 +109,6 @@ public class ConnectivityCheckPreferenceController
     private static final String HUAWEI_HTTP_URL =
             "http://connectivitycheck.platform.hicloud.com/generate_204";
 
-    // Xiaomi
-    private static final String XIAOMI_HTTPS_URL =
-            "https://connect.rom.miui.com/generate_204";
-    private static final String XIAOMI_HTTP_URL =
-            "http://connect.rom.miui.com/generate_204";
-
     // Keep this in sync! Commented options must be very last!
     private static final int DISABLED_CAPTIVE_PORTAL_INTVAL = 0;
     private static final int AMAZON_CAPTIVE_PORTAL_HTTP_URL_INTVAL = 1;
@@ -126,8 +120,7 @@ public class ConnectivityCheckPreferenceController
     private static final int MICROSOFT_CAPTIVE_PORTAL_HTTP_URL_INTVAL = 7;
     private static final int OPENSUSE_CAPTIVE_PORTAL_HTTP_URL_INTVAL = 8;
     private static final int UBUNTU_CAPTIVE_PORTAL_HTTP_URL_INTVAL = 9;
-    private static final int XIAOMI_CAPTIVE_PORTAL_HTTP_URL_INTVAL = 10;
-    private static final int GRAPHENEOS_CAPTIVE_PORTAL_HTTP_URL_INTVAL = 11;
+    private static final int GRAPHENEOS_CAPTIVE_PORTAL_HTTP_URL_INTVAL = 10;
 
     private static final String KEY_CONNECTIVITY_CHECK_SETTINGS =
             "connectivity_check_settings";
@@ -210,9 +203,6 @@ public class ConnectivityCheckPreferenceController
         } else if (HUAWEI_HTTP_URL.equals(pref)) {
             mConnectivityPreference.setValueIndex(
                     HUAWEI_CAPTIVE_PORTAL_HTTP_URL_INTVAL);
-        } else if (XIAOMI_HTTP_URL.equals(pref)) {
-            mConnectivityPreference.setValueIndex(
-                    XIAOMI_CAPTIVE_PORTAL_HTTP_URL_INTVAL);
         }
 
     }
@@ -356,19 +346,6 @@ public class ConnectivityCheckPreferenceController
                 Settings.Global.putString(
                         cr, Settings.Global.CAPTIVE_PORTAL_OTHER_FALLBACK_URLS,
                         HUAWEI_HTTP_URL);
-                Settings.Global.putInt(cr, Settings.Global.CAPTIVE_PORTAL_MODE,
-                        Settings.Global.CAPTIVE_PORTAL_MODE_PROMPT);
-                break;
-            case XIAOMI_CAPTIVE_PORTAL_HTTP_URL_INTVAL:
-                Settings.Global.putString(cr, Settings.Global.CAPTIVE_PORTAL_HTTP_URL,
-                        XIAOMI_HTTP_URL);
-                Settings.Global.putString(cr, Settings.Global.CAPTIVE_PORTAL_HTTPS_URL,
-                        XIAOMI_HTTPS_URL);
-                Settings.Global.putString(cr, Settings.Global.CAPTIVE_PORTAL_FALLBACK_URL,
-                        XIAOMI_HTTP_URL);
-                Settings.Global.putString(
-                        cr, Settings.Global.CAPTIVE_PORTAL_OTHER_FALLBACK_URLS,
-                        XIAOMI_HTTP_URL);
                 Settings.Global.putInt(cr, Settings.Global.CAPTIVE_PORTAL_MODE,
                         Settings.Global.CAPTIVE_PORTAL_MODE_PROMPT);
                 break;

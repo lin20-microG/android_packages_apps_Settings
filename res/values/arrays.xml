@@ -133,8 +133,7 @@
         <item>Microsoft Edge (US)</item>
         <item>openSUSE (DE)</item>
         <item>Ubuntu (UK)</item>
-        <!--<item>Xiaomi (CN)</item>-->
-        <!--<item>GrapheneOS (CA)</item>-->
+        <item>GrapheneOS (CA)</item>
     </string-array>
 
     <string-array name="connectivity_check_values" translatable="false">
@@ -148,8 +147,7 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
-        <!--<item>10</item>-->
-        <!--<item>11</item>-->
+        <item>10</item>
     </string-array>
 
     <!-- Security settings.  The delay after screen is turned off until device locks.
