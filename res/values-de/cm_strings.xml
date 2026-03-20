@@ -113,4 +113,6 @@
     <string name="sensor_access_summary">Sensorzugriff von Benutzer-Apps kontrollieren</string>
     <string name="sensor_access_title">Zugriff auf Sensoren</string>
     <string name="sensor_access_title_empty_text">Keine installierte App hat Sensorzugriff angefordert.</string>
+    <string name="custom_patch">Custom Build Version</string>
+    <string name="custom_patch_info">Für diese Android-Version sind keine offiziellen Sicherheitsupdates mehr erhältlich. \nAlle enthaltenen Patches wurden aus neueren Versionen rückportiert.</string>
 </resources>
